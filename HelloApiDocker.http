@@ -1,0 +1,6 @@
+@HelloApiDocker_HostAddress = http://localhost:5044
+
+GET {{HelloApiDocker_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
